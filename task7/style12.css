@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.logo {
+  margin-left: 630px;
+  width: 250px;
+  height: 120px;
+}
+.shadow {
+  width: 460px;
+  margin-left: 520px;
+}
+.firstn {
+  width: 190px;
+  height: 40px;
+  padding-left: 5px;
+}
+.lastn {
+  width: 190px;
+  height: 40px;
+  padding-left: 5px;
+}
+.email {
+  width: 410px;
+  height: 40px;
+  padding-left: 5px;
+  margin-inline: 25px;
+}
+.pass {
+  width: 410px;
+  height: 40px;
+  padding-left: 5px;
+  margin-inline: 25px;
+}
+select {
+  width: 130px;
+  height: 36px;
+  border-radius: 5px;
+}
+.gender {
+  width: 110px;
+  height: 35px;
+  padding-inline: 6px;
+  border-radius: 5px;
+}
+.btn {
+  width: 150px;
+}

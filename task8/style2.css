@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.col-md-3 p {
+  color: white;
+}
+.music img {
+  border-radius: 15px;
+}
+.col-md-3 {
+  padding-left: 65px;
+}
+.musicbar img {
+  border-radius: 5px;
+}
+.bar {
+  border-bottom: 1px solid #767c84;
+  border-radius: 8px;
+  padding-top: 10px;
+}
+.gallery img {
+  border-radius: 7px;
+}
+.footer p {
+  color: white;
+}
+.footer h3 {
+  color: #69c1e9;
+}

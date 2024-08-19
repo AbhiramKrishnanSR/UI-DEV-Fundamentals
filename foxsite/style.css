@@ -1,0 +1,87 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.navcls {
+  background-color: #0a0e1f;
+}
+.nav-main {
+  display: flex;
+  justify-content: space-around;
+}
+.nav-link {
+  color: white !important;
+  padding: 0px 50px !important;
+}
+.logo {
+  width: 120px;
+}
+.banner {
+  background-image: url(FoxUniversity/banner.jpg);
+  height: 550px;
+  background-size: cover;
+  color: white;
+}
+
+.buttn {
+  background-color: #fd5e00 !important;
+  border-radius: 20px !important;
+  color: white !important;
+  border: none !important;
+  padding-bottom: 11px !important;
+}
+.content {
+  display: flex;
+  height: 250px;
+}
+.col {
+  flex-grow: 1;
+  flex-basis: 1;
+  transition: flex-grow 0.3s;
+  -webkit-transition: flex-grow 0.3s;
+
+  padding-top: 50px;
+}
+.col:hover {
+  flex-grow: 2;
+  transition: flex-grow 0.3s;
+  -webkit-transition: flex-grow 0.3s;
+}
+.col p {
+  text-align: center;
+}
+.offerimg {
+  width: 320px;
+  height: 480px;
+}
+
+.innerrow img {
+  width: 50px;
+  height: 50px;
+  background-color: #fd5e00;
+  border-radius: 50%;
+  margin-left: 50px;
+}
+.quote {
+  background-image: url(FoxUniversity/request.jpg);
+  height: 660px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.quote ::placeholder {
+  color: white;
+}
+.footer {
+  background-color: #232323;
+  height: 600px;
+  background-attachment: fixed;
+  color: white;
+}
+.head {
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+.email ::placeholder {
+  color: #c4c4c4;
+  text-align: center;
+}

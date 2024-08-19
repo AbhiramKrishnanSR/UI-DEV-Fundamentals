@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  padding-top: 20px;
+  color: blue;
+}
+.about {
+  display: flex;
+  gap: 10px;
+  color: red;
+}
+.circle {
+  height: 70px;
+  width: 70px;
+}
+.box1 {
+  height: 150px;
+  width: 287px;
+}
+.content {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 1200px;
+  padding-left: 300px;
+  margin-block: 50px;
+}
+.footer {
+  height: 45px;
+  padding-top: 10px;
+}

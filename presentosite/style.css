@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navig {
+  position: sticky !important;
+  top: 0;
+  z-index: 2;
+}
+.btn-red,
+.btn-outline-red {
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+  width: fit-content;
+  border-radius: 5px;
+}
+.btn-red {
+  background-color: #d34943;
+  color: white;
+  border: 1px solid #d34943;
+}
+.btn-outline-red {
+  background-color: transparent;
+  border: 3px solid #d34943;
+}
+.btn-red:hover,
+.btn-outline-red:hover {
+  background-color: #af3f3b;
+  color: white;
+  transition: 0.5s;
+  border: 1px solid #af3f3b !important;
+}
+.banner {
+  background: linear-gradient(#00000099, #00000099), url(Presento/hero-bg.jpg);
+  height: 670px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.greyscale {
+  filter: grayscale(100);
+}
+.greyscale:hover {
+  filter: grayscale(0);
+}
+.tilt {
+  background-color: #1b1b1b;
+  transform: skewY(-3deg);
+}
+.tilt-inside {
+  transform: skewY(3deg);
+  span,
+  h4 {
+    color: white;
+  }
+  p {
+    color: #a4a4a4;
+  }
+}
+.tilt-red:hover {
+  h4 {
+    color: #af3f3b;
+    transition: ease-in;
+  }
+}
+.button-selector {
+  border: 1px solid #e3e3e3 !important;
+  color: black !important;
+  height: 100px;
+  border-radius: 0px !important;
+}
+.button-selector:hover {
+  border: 1px solid #d34943 !important;
+  i {
+    color: #d34943;
+  }
+}
+.nav-pills .nav-link.active {
+  background-color: #d34943 !important;
+  color: white !important;
+}
+.serv-opac:hover {
+  background-color: #3b3c3c !important;
+}
+.text-hover-red:hover {
+  color: #e31900 !important;
+}
+.tes-img {
+  width: 90px !important;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.tes {
+  background-color: var(--surface-color);
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  box-sizing: content-box;
+  padding: 30px;
+  margin: 30px 15px;
+  position: relative;
+  height: 100%;
+}
+.buy-btn {
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  background-color: #1b1b1b;
+  display: inline-block;
+  padding: 8px 35px 10px 35px;
+  border-radius: 4px;
+  border: 1px solid color-mix(in srgb, white, transparent 60%);
+  transition: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.busin {
+  transform: scale(1.1);
+}
+.accordion-button:not(.collapsed) {
+  background-color: white !important;
+  box-shadow: none !important;
+}
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+.faq-active {
+  background-color: color-mix(in srgb, #e31900, transparent 97%) !important;
+  border-color: color-mix(in srgb, #e31900, transparent 80%) !important;
+  .accordion-button {
+    background-color: color-mix(in srgb, #e31900, transparent 97%) !important;
+  }
+}
+.accordion-item {
+  position: relative;
+  padding: 20px;
+  margin-bottom: 15px;
+  border: 1px solid color-mix(in srgb, black, transparent 85%) !important;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: white !important;
+}
+.socialme:hover {
+  display: flex !important;
+  justify-content: center !important;
+  gap: 5px !important;
+  margin-top: 3%;
+}

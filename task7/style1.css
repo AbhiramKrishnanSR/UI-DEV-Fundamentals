@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.or {
+  top: 235px;
+  right: 172px;
+  width: 35px;
+}
+.email {
+  height: 45px;
+  width: 300px;
+}
+.pass {
+  height: 45px;
+  width: 300px;
+}

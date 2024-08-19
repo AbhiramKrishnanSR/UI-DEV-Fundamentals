@@ -1,0 +1,50 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.text-orange {
+  color: #fd5f00;
+}
+.btn-orange {
+  background-color: #fd5f00;
+  border: 1px solid #fd5f00;
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+  color: white;
+  border-radius: 0;
+  width: fit-content;
+}
+.btn-orange:hover {
+  background-color: transparent;
+  color: #fd5f00;
+}
+.bg-orange {
+  background-color: #fd5f00;
+}
+.ofrimg {
+  background-image: url(FoxUniversity/offer.jpg);
+  background-size: cover;
+}
+.locimg {
+  background: linear-gradient(#d7530099, #d7530099),
+    url(FoxUniversity/image_4.jpg);
+  background-attachment: fixed;
+}
+.cimg {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+.cicon span {
+  font-size: 11px;
+  font-weight: bold;
+}
+.tcard:hover {
+  h4 {
+    color: #fd5f00;
+  }
+}
+.timg {
+  background-size: cover;
+  background-position: center;
+}
